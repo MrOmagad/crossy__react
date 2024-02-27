@@ -1,0 +1,32 @@
+.content__title{
+  font-family: "Anonymous Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 150px;
+}
+.content{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+@media screen and (max-width: 375px) {
+  .cards{
+    justify-content: center;
+  }
+  .content__title{
+    font-size: 32px;
+    width: 364px;
+    margin: 0 auto;
+  }
+}

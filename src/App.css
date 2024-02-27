@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(../public/fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+font-family: "Anonymous Pro";
+src: url(../public/fonts/AnonymousPro-Regular.ttf);
+}
+@font-face {
+  font-family: "IB MP Plex Mono";
+  src: url(../public/fonts/IBMPlexMono-Regular.ttf);
+}
+@font-face {
+  font-family: "IB MP Plex Mono";
+  src: url(../public/fonts/IBMPlexMono-Bold.ttf);
+  font-weight: 700;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #F1F1F1;
+}
